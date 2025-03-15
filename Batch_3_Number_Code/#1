@@ -1,0 +1,6 @@
+#input 10 numbers and put it on a list
+numbers = [int(input(f"Enter number {i+1}: ")) for i in range(10)]
+#Find numbers numbers without duplicates
+unique_numbers = [num for num in numbers if numbers.count(num) == 1]
+#print output
+print("Unique numbers:", unique_numbers)
