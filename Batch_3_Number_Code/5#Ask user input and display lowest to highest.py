@@ -8,4 +8,4 @@ while True:
         print("Invalid input")
         break
     #Display highest to lowest number
-    print("Highest to lowest number:", sorted(num_list2, reverse=True))
+    print("Lowest to highest number:", sorted(num_list2))
